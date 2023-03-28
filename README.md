@@ -6,7 +6,7 @@ This example shows how to display a [SimpleButton](https://docs.devexpress.com/M
 
 <img src="https://user-images.githubusercontent.com/12169834/228201579-826dea6c-4af0-4bdc-ae86-4873cd115fd6.png" width="30%"/>
 
-![CollectionView - ListCard Anatomy](~/images/scenarios/card-with-buttons-anatomy.png)
+<img src="https://user-images.githubusercontent.com/12169834/228202133-780c9629-c794-4b07-a261-4c41cd195bf2.png" width="30%"/>
 
 Used controls and their properties:
 
