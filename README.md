@@ -4,6 +4,8 @@
 
 This example shows how to display a [SimpleButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton) and [ChartView](https://docs.devexpress.com/MAUI/DevExpress.Maui.Charts.ChartView) controls within cards. These cards can implement any required actions.  
 
+<img src="https://user-images.githubusercontent.com/12169834/228201579-826dea6c-4af0-4bdc-ae86-4873cd115fd6.png" width="30%"/>
+
 ![CollectionView - ListCard Anatomy](~/images/scenarios/card-with-buttons-anatomy.png)
 
 Used controls and their properties:
