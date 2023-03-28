@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectCard", "ObjectCard.csproj", "{FC00272F-8D8D-4AFE-9E17-54DDA4FB0377}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC00272F-8D8D-4AFE-9E17-54DDA4FB0377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC00272F-8D8D-4AFE-9E17-54DDA4FB0377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC00272F-8D8D-4AFE-9E17-54DDA4FB0377}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FC00272F-8D8D-4AFE-9E17-54DDA4FB0377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC00272F-8D8D-4AFE-9E17-54DDA4FB0377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC00272F-8D8D-4AFE-9E17-54DDA4FB0377}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C600703-EEED-4D08-B192-71B40E35C405}
+	EndGlobalSection
+EndGlobal
