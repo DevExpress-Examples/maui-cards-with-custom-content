@@ -36,7 +36,6 @@ If a control within the [SimpleButton](https://docs.devexpress.com/MAUI/DevExpre
 ## Documentation
 
 * [Featured Scenario: Cards with Custom Content](https://docs.devexpress.com/MAUI/404341)
-* [Featured Scenario: List in Cards](https://docs.devexpress.com/MAUI/404301)
 * [Featured Scenarios](https://docs.devexpress.com/MAUI/404291)
 * [SimpleButton.Content](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton.Content)
 * [SimpleButton.Clicked](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton.Clicked)
