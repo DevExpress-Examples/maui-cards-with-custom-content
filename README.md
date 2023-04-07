@@ -2,7 +2,7 @@
 <!-- default badges end -->
 ## .NET MAUI Controls - Cards with Custom Content
 
-This example shows how to display a [SimpleButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton) and [ChartView](https://docs.devexpress.com/MAUI/DevExpress.Maui.Charts.ChartView) controls within cards. These cards can implement any required actions.  
+This example shows how to display a [SimpleButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton) and [ChartView](https://docs.devexpress.com/MAUI/DevExpress.Maui.Charts.ChartView) controls within cards. You can define any required actions for these cards.  
 
 <img src="https://user-images.githubusercontent.com/12169834/228201579-826dea6c-4af0-4bdc-ae86-4873cd115fd6.png" width="30%"/>
 
