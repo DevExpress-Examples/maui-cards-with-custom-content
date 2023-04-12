@@ -2,17 +2,17 @@
 <!-- default badges end -->
 ## .NET MAUI Controls - Cards with Custom Content
 
-This example shows how to display a [SimpleButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton) and [ChartView](https://docs.devexpress.com/MAUI/DevExpress.Maui.Charts.ChartView) controls within cards. You can define any required actions for these cards.  
+This example demonstrates how to turn [SimpleButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton) controls into clickable cards with custom content. For example, the bottom card displays a [ChartView](https://docs.devexpress.com/MAUI/DevExpress.Maui.Charts.ChartView). 
 
 <img src="https://user-images.githubusercontent.com/12169834/228201579-826dea6c-4af0-4bdc-ae86-4873cd115fd6.png" width="30%"/>
 
-Used controls and their properties:
+Included controls and their properties:
 
 * [Label](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/label?view=net-maui-7.0): [Text](https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.label.text?view=net-maui-7.0)
 
 * [SimpleButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton): [Content](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton.Content), [Clicked](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton.Clicked)
 
-If a control within the [SimpleButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton) intercepts a click, set the control's `InputTransparent` property to `true`:
+If a control in a [SimpleButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton) intercepts a click, set the control's `InputTransparent` property to `true`. In this case, the control handles clicks instead of the [SimpleButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton):
  
 ```xaml
 <dxco:SimpleButton Clicked="SimpleButton_Clicked" ...>
