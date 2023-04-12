@@ -4,7 +4,7 @@
 
 This example demonstrates how to turn [SimpleButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton) controls into clickable cards with custom content. For example, the bottom card displays a [ChartView](https://docs.devexpress.com/MAUI/DevExpress.Maui.Charts.ChartView). 
 
-<img src="https://user-images.githubusercontent.com/12169834/228201579-826dea6c-4af0-4bdc-ae86-4873cd115fd6.png" width="30%"/>
+<img width="30%" alt="image" src="https://user-images.githubusercontent.com/12169834/231418620-2f87ae15-69d3-4570-85ce-66807ee4b627.png">
 
 Included controls and their properties:
 
