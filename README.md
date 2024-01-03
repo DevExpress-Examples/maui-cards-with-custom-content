@@ -5,7 +5,7 @@
 <!-- default badges end -->
 ## .NET MAUI Controls - Cards with Custom Content
 
-This example demonstrates how to turn [SimpleButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton) controls into clickable cards with custom content. For example, the bottom card displays a [ChartView](https://docs.devexpress.com/MAUI/DevExpress.Maui.Charts.ChartView). 
+This example demonstrates how to turn [DXButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Core.DXButton) controls into clickable cards with custom content. For example, the bottom card displays a [ChartView](https://docs.devexpress.com/MAUI/DevExpress.Maui.Charts.ChartView). 
 
 <img width="30%" alt="image" src="https://user-images.githubusercontent.com/12169834/231418620-2f87ae15-69d3-4570-85ce-66807ee4b627.png">
 
@@ -13,16 +13,16 @@ Included controls and their properties:
 
 * [Label](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/label?view=net-maui-7.0): [Text](https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.label.text?view=net-maui-7.0)
 
-* [SimpleButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton): [Content](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton.Content), [Clicked](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton.Clicked)
+* [DXButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Core.DXButton): [Content](https://docs.devexpress.com/MAUI/DevExpress.Maui.Core.DXBorder.Content), [Clicked](https://docs.devexpress.com/MAUI/DevExpress.Maui.Core.DXButtonBase.Clicked)
 
-If a control in a [SimpleButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton) intercepts a click, set the control's `InputTransparent` property to `true`. In this case, the control handles clicks instead of the [SimpleButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton):
+If a control in a [DXButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Core.DXButton) intercepts a click, set the control's `InputTransparent` property to `true`. In this case, the control handles clicks instead of the [DXButton](https://docs.devexpress.com/MAUI/DevExpress.Maui.Core.DXButton):
  
 ```xaml
-<dxco:SimpleButton Clicked="SimpleButton_Clicked" ...>
+<dx:DXButton Clicked="Button_Clicked" ...>
     <Grid>
         <views:PageviewsAreaChartView InputTransparent="True"/>
     </Grid>
-</dxco:SimpleButton>
+</dx:DXButton>
 ```
 
 ## Files to Look At
@@ -40,8 +40,8 @@ If a control in a [SimpleButton](https://docs.devexpress.com/MAUI/DevExpress.Mau
 
 * [Featured Scenario: Cards with Custom Content](https://docs.devexpress.com/MAUI/404341)
 * [Featured Scenarios](https://docs.devexpress.com/MAUI/404291)
-* [SimpleButton.Content](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton.Content)
-* [SimpleButton.Clicked](https://docs.devexpress.com/MAUI/DevExpress.Maui.Controls.SimpleButton.Clicked)
+* [DXButton.Content](https://docs.devexpress.com/MAUI/DevExpress.Maui.Core.DXBorder.Content)
+* [DXButton.Clicked](https://docs.devexpress.com/MAUI/DevExpress.Maui.Core.DXButtonBase.Clicked)
 
 ## More Examples
 
