@@ -3,29 +3,29 @@
     xmlns:dx="clr-namespace:DevExpress.Maui.Core;assembly=DevExpress.Maui.Core"
     xmlns:dxc="clr-namespace:DevExpress.Maui.Charts;assembly=DevExpress.Maui.Charts"
     xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
-    xmlns:views="clr-namespace:ObjectCard.Views" ios:Page.UseSafeArea="true" Title="Analytics" x:Class= "ObjectCard.MainPage">
+    xmlns:views="clr-namespace:ObjectCard.Views" ios:Page.UseSafeArea="true" Title="Analytics" x:Class="ObjectCard.MainPage">
     <ScrollView>
-        <VerticalStackLayout>
+        <dx:DXStackLayout Orientation="Vertical">
             <views:ChannelsDonutView HeightRequest="250" HorizontalOptions="Fill" Margin="20,10,60,10" x:Name="donutView"/>
             <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,*" >
                 <dx:DXButton Style="{StaticResource cardButtonStyle}" HeightRequest="100" Clicked="AnalyticsItemClicked">
                     <Grid ColumnDefinitions="*, Auto" RowDefinitions="*,*">
                         <Label FontAttributes="Bold" TextColor="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource White}}" Text="Active Users" VerticalOptions="Start"/>
                         <dx:DXImage Source="online" Grid.Column="1" WidthRequest="16" HeightRequest="16"  VerticalOptions="Start"/>
-                        <HorizontalStackLayout Grid.Row="1" VerticalOptions="End">
+                        <dx:DXStackLayout Orientation="Horizontal" Grid.Row="1" VerticalOptions="End">
                             <Label TextColor="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource White}}" Text="120" FontAttributes="Bold"/>
                             <Label TextColor="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource White}}" Text="online" Margin="4,0,0,0"/>
-                        </HorizontalStackLayout>
+                        </dx:DXStackLayout>
                     </Grid>
                 </dx:DXButton>
                 <dx:DXButton Style="{StaticResource cardButtonStyle}" HeightRequest="100" Grid.Column="1" Clicked="AnalyticsItemClicked">
                     <Grid ColumnDefinitions="*, Auto" RowDefinitions="*,*">
                         <Label FontAttributes="Bold" TextColor="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource White}}" Text="Conversion" VerticalOptions="Start"/>
                         <dx:DXImage Source="goal" Grid.Column="1" WidthRequest="20" HeightRequest="16" VerticalOptions="Start"/>
-                        <HorizontalStackLayout Grid.Row="1" VerticalOptions="End">
+                        <dx:DXStackLayout Orientation="Horizontal" Grid.Row="1" VerticalOptions="End">
                             <Label TextColor="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource White}}" Text="3.4%" FontAttributes="Bold"/>
                             <Label TextColor="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource White}}" Text="this week" Margin="4,0,0,0"/>
-                        </HorizontalStackLayout>
+                        </dx:DXStackLayout>
                     </Grid>
                 </dx:DXButton>
                 <Border WidthRequest="{Binding Source={x:Reference pageviewsItem}, Path=Width}" HeightRequest="{Binding Source={x:Reference pageviewsItem}, Path=Height}" Style="{StaticResource shadowBorder}" Grid.Row="1" Grid.ColumnSpan="2" BackgroundColor="White"/>
@@ -35,6 +35,6 @@
                     </Grid>
                 </dx:DXButton>
             </Grid>
-        </VerticalStackLayout>
+        </dx:DXStackLayout>
     </ScrollView>
 </ContentPage>
