@@ -11,6 +11,8 @@ namespace ObjectCard {
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseDevExpressCharts()
+                .UseDevExpressControls()
                 .UseDevExpress(useLocalization: true)
                 .ConfigureFonts(fonts =>
                 {
